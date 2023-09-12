@@ -11,7 +11,7 @@ int numero;
 printf("digite um numero: ");
 scanf("%d", &numero);
 
-// Calcula para um numero par
+// Calculo para um numero par
 
 if (numero % 2 == 0){
     printf("O número %d é par.\n", numero); 
