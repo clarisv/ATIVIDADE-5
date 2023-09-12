@@ -17,18 +17,18 @@ printf("Quantos anos de contribuicao o funcionario possui? ");
 scanf("%d", &tempServico);
 
 if ( salarioAtu <= 500 && tempServico < 1 ) {
-        salarioReaj = salarioAtu * 1.25;  
+        salarioReaj = salarioAtu * 0.25;  
 
 } else if ( salarioAtu <= 1000 && tempServico >= 1 && tempServico <= 3 ) {
-        salarioAtu = salarioAtu * 1.20;  
+        salarioAtu = salarioAtu * 0.20;  
         bonus = 100; 
 
 } else if ( salarioAtu <= 1500 && tempServico >= 4 && tempServico <= 6 ) {
-        salarioReaj = salarioAtu * 1.15;  
+        salarioReaj = salarioAtu * 0.15;  
         bonus = 200;  
 
 } else if ( salarioAtu <= 2000 && tempServico >= 7 && tempServico <= 10 ) {
-        salarioReaj = salarioAtu * 1.10;  
+        salarioReaj = salarioAtu * 0.10;  
         bonus = 300;  
 
 } else if ( salarioAtu > 2000 && tempServico > 10 ) {
