@@ -16,7 +16,7 @@ media = ( prova1 + prova2 + prova3 * 2)/4;
 
 if(media >= 7.0){
     
-   printf("media: %.2f", media);
+   printf("media: %.2f\n", media);
    printf("aluno aprovado\n");
 
 }
